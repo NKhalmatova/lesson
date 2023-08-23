@@ -1,0 +1,101 @@
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+body{
+    background-color:azure;
+    position: absolute;
+    margin-top: -120px;
+    left: 12%;
+    transform:translate(-50%);
+}
+.stranica{
+    width: 400px;
+    background-color:antiquewhite;
+    margin: 150px auto 0;
+    border-radius: 10px;
+}
+.center{
+    width: 200px;
+    margin: 150px auto 0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;       
+}
+.contain{
+    width: 400px;
+    border-radius: 10px;
+}
+form{
+    padding: 10px 0px;
+    
+}
+h3:hover{
+    padding: 0px 40px; 
+    font-weight: bold;
+    color: blueviolet; 
+}
+
+label{
+    color: rgb(94, 63, 29);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: inherit;
+    direction:ltr;
+}
+input{
+    display: block;
+    width: 200px;
+    height: auto;   
+}
+select{
+    display: block;
+}
+
+option:nth-child(odd){
+    color:rgb(91, 126, 126);
+    font-weight: bold;
+}
+option:first-letter{
+    color:rgb(42, 166, 96);
+   
+} 
+option:last-child{
+    color:red;
+}
+caption:hover{
+    font-weight: bold;
+    color: blueviolet; 
+    color:brown;
+}
+table { 
+    border-radius: 10px;
+} 
+table, th, td{
+    border: 2px solid black;
+    padding: 5px;
+}
+  td:hover{
+    color:blue;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0,5s;
+}
+
+.green:hover{
+    color:rgb(134, 90, 25);
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0,5s;
+
+}
+td:after{
+    content: ";";
+}
+td:last-child::after{
+    content: ".";
+}
+.zagol:hover{
+    color:rgb(125, 125, 25);
+}
+
